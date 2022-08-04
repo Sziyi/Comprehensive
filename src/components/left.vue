@@ -58,6 +58,7 @@ export default {
 <style lang="scss" scoped>
 .patrol {
   width: 20%;
+  height: 97%;
   box-shadow: 0 0 3px blue;
   display: flex;
   flex-direction: column;

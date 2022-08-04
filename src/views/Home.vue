@@ -9,12 +9,10 @@
         <div class="tb">
           <div class="top">
             <topOne />
-            <!-- 
-            <water-level-chart />
-
-            <scroll-board /> -->
+            <topTwo />
+            <topThree />
           </div>
-          <!-- <cards /> -->
+          <bottom />
         </div>
       </div>
     </div>
@@ -26,8 +24,11 @@ import topHeader from "../components/topHeader.vue";
 import manage from "../components/manage.vue";
 import left from "../components/left.vue";
 import topOne from "../components/topOne.vue";
+import topTwo from "../components/topTwo.vue";
+import topThree from "../components/topThree.vue";
+import bottom from "../components/bottom.vue";
 export default {
-  components: { topHeader, manage, left, topOne },
+  components: { topHeader, manage, left, topOne, topTwo, topThree, bottom },
   name: "Home",
   data() {
     return {};
@@ -55,21 +56,21 @@ export default {
       flex: 1;
       display: flex;
       margin-top: 20px;
-    //   background-color: #fff;
+      //   background-color: #fff;
       .tb {
         flex: 1;
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
         padding-left: 20px;
-        background-color: aquamarine;
+        // background-color: aquamarine;
         .top {
-          height: 55%;
+          height: 50%;
           display: flex;
           flex-grow: 0;
           box-sizing: border-box;
           padding-bottom: 20px;
-        //   background-color: blueviolet;
+          //   background-color: blueviolet;
         }
       }
     }

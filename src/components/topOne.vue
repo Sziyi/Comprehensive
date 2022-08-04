@@ -81,9 +81,9 @@ export default {
 <style lang="scss">
 .topOne {
   width: 30%;
-  height: 100%;
+  height: 85%;
   background-color: rgba(6, 30, 93, 0.5);
-  border-top: 3px solid rgb(39, 146, 240);
+  border-top: 2px solid rgb(39, 146, 240);
   box-sizing: border-box;
   .title {
     height: 33px;
